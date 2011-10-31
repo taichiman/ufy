@@ -1,0 +1,35 @@
+<p>User: <%= "#{@cur_user}" %></p>
+<p>gvk: <%= @dd %></p>
+<h1>Фоловеры</h1>
+Друзья : <%= @stat['friends'] %><br>
+
+Зафолловили за 1 день: <%= @stat['friend_followers'] %><br>
+<% @stat['friend_followers_avatar'].each do |f| %>
+<img src= <%= "#{f.avatar}" %> /><%= "#{f.name}"%>
+<% end %>
+<br>
+
+Расфолловили за 1 день : <%= @stat['friend_unfollowers'] %><br>
+<% @stat['friend_unfollowers_avatar'].each do |f| %>
+<img src= <%= "#{f.avatar}" %> /><%= "#{f.name}"%>
+<% end %>
+<br>
+
+
+<br><br>
+<h1>Подписчики</h1>
+Подписчики  : <%= @stat['subscribers'] %><br>
+
+Зафолловили за 1 день : <%= @stat['subscriber_followers'] %><br>
+<% @stat['subscriber_followers_avatar'].each do |f| %>
+<img src= <%= "#{f.avatar}" %> /><%= "#{f.name}" %>
+<% end %>
+<br><br>
+
+
+Расфолловили за 1 день : <%= @stat['subscriber_unfollowers'] %><br>
+<% @stat['subscriber_unfollowers_avatar'].each do |f| %>
+<img src= <%= "#{f.avatar}" %> /><%= "#{f.name}"%>
+<% end %>
+<br>
+

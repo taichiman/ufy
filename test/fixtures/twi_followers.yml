@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  social_connection_id: 1
+  id_a: 1
+  id_b: 1
+
+two:
+  social_connection_id: 1
+  id_a: 1
+  id_b: 1

@@ -1,0 +1,2 @@
+module SocialConnectionsHelper
+end

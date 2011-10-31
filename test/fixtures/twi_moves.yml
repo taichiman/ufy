@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  social_connection_id: 1
+  twi_id: 1
+  action_time: 2011-09-13 02:25:26
+  mutal: 
+  status: 
+
+two:
+  social_connection_id: 1
+  twi_id: 1
+  action_time: 2011-09-13 02:25:26
+  mutal: 
+  status: 

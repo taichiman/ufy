@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: MyString
+  networks_count: 1
+
+two:
+  email: MyString
+  networks_count: 1

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  network_id: 1
+  user_id: 1
+  social_id: 1
+  token: MyString
+  token_secret: MyString
+
+two:
+  network_id: 1
+  user_id: 1
+  social_id: 1
+  token: MyString
+  token_secret: MyString
